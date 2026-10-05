@@ -1,0 +1,553 @@
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Movie & Music Hub</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-film"></i>
+        Movie<span>Hub</span>
+      </div>
+
+      <nav>
+        <a href="#home"> <i class="fa-solid fa-house"></i> Home </a>
+
+        <a href="#songs"> <i class="fa-solid fa-music"></i> Songs </a>
+
+        <a href="#movies"> <i class="fa-solid fa-video"></i> Movies </a>
+
+        <a href="#about"> <i class="fa-solid fa-circle-info"></i> About </a>
+      </nav>
+
+      <div class="nav-search">
+        <input type="text" placeholder="Search movies..." />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="small-title">
+          <i class="fa-solid fa-star"></i>
+          TAP ACADEMY PRESENTS
+        </p>
+
+        <h1>
+          I love Music &
+          <span>Indian blockbusters</span>
+        </h1>
+
+        <p>
+          Discover favourite songs, popular movie trailers, posters and
+          cinematic moments — all in one place.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#songs" class="btn primary">
+            <i class="fa-solid fa-play"></i>
+            Play Songs
+          </a>
+
+          <a href="#movies" class="btn secondary">
+            <i class="fa-solid fa-film"></i>
+            See Top Movies
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-poster">
+        <div class="poster-card">
+          <i class="fa-solid fa-film"></i>
+          <h2>MovieHub</h2>
+          <p>Movies • Music • Trailers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SEARCH ================= -->
+
+    <section class="search-section">
+      <h2>Find Your Favourite</h2>
+
+      <div class="big-search">
+        <input type="text" placeholder="Search songs, movies, trailers..." />
+
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          Search
+        </button>
+      </div>
+    </section>
+
+    <!-- ================= SONGS ================= -->
+
+    <section class="section" id="songs">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">
+            <i class="fa-solid fa-headphones"></i>
+            MUSIC COLLECTION
+          </p>
+
+          <h2>My Favourite Songs</h2>
+
+          <p>Listen to some of my favourite tracks.</p>
+        </div>
+      </div>
+
+      <div class="song-grid">
+        <!-- SONG 1 -->
+
+        <article class="song-card">
+          <div class="song-number">01</div>
+
+          <div class="song-icon">
+            <i class="fa-solid fa-music"></i>
+          </div>
+
+          <div class="song-info">
+            <h3>Song 1</h3>
+            <p>Favourite Track</p>
+          </div>
+
+          <audio src="./song2.mp3" controls></audio>
+        </article>
+
+        <!-- SONG 2 -->
+
+        <article class="song-card">
+          <div class="song-number">02</div>
+
+          <div class="song-icon">
+            <i class="fa-solid fa-music"></i>
+          </div>
+
+          <div class="song-info">
+            <h3>Song 2</h3>
+            <p>Favourite Track</p>
+          </div>
+
+          <audio src="./Song3.mp3" controls></audio>
+        </article>
+
+        <!-- SONG 3 -->
+
+        <article class="song-card">
+          <div class="song-number">03</div>
+
+          <div class="song-icon">
+            <i class="fa-solid fa-music"></i>
+          </div>
+
+          <div class="song-info">
+            <h3>Song 3</h3>
+            <p>Favourite Track</p>
+          </div>
+
+          <audio src="./song4.mp3" controls></audio>
+        </article>
+
+        <!-- SONG 4 -->
+
+        <article class="song-card">
+          <div class="song-number">04</div>
+
+          <div class="song-icon">
+            <i class="fa-solid fa-music"></i>
+          </div>
+
+          <div class="song-info">
+            <h3>Song 4</h3>
+            <p>Favourite Track</p>
+          </div>
+
+          <audio src="./song5.mp3" controls></audio>
+        </article>
+
+        <!-- SONG 5 -->
+
+        <article class="song-card">
+          <div class="song-number">05</div>
+
+          <div class="song-icon">
+            <i class="fa-solid fa-music"></i>
+          </div>
+
+          <div class="song-info">
+            <h3>Song 5</h3>
+            <p>Favourite Track</p>
+          </div>
+
+          <audio src="./song 6.mp3" controls></audio>
+        </article>
+
+        <!-- SONG 6 -->
+
+        <article class="song-card">
+          <div class="song-number">06</div>
+
+          <div class="song-icon">
+            <i class="fa-solid fa-music"></i>
+          </div>
+
+          <div class="song-info">
+            <h3>Song 6</h3>
+            <p>Favourite Track</p>
+          </div>
+
+          <audio src="./song7.mp3" controls></audio>
+        </article>
+
+        <!-- SONG 7 -->
+
+        <article class="song-card">
+          <div class="song-number">07</div>
+
+          <div class="song-icon">
+            <i class="fa-solid fa-music"></i>
+          </div>
+
+          <div class="song-info">
+            <h3>Song 7</h3>
+            <p>Favourite Track</p>
+          </div>
+
+          <audio src="./song8.mp3" controls></audio>
+        </article>
+
+        <!-- SONG 8 -->
+
+        <article class="song-card">
+          <div class="song-number">08</div>
+
+          <div class="song-icon">
+            <i class="fa-solid fa-music"></i>
+          </div>
+
+          <div class="song-info">
+            <h3>Song 8</h3>
+            <p>Favourite Track</p>
+          </div>
+
+          <audio src="./song9.mp3" controls></audio>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= MOVIES ================= -->
+
+    <section class="section movies-section" id="movies">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">
+            <i class="fa-solid fa-fire"></i>
+            TRENDING TRAILERS
+          </p>
+
+          <h2>Top Indian Movie Trailers</h2>
+
+          <p>Explore popular Indian movies and watch their trailers.</p>
+        </div>
+      </div>
+
+      <div class="movie-grid">
+        <!-- ================= MOVIE 1 ================= -->
+
+        <article class="movie-card">
+          <div class="movie-number">#01</div>
+
+          <a href="#hinanna">
+            <img
+              src="https://i.pinimg.com/736x/b6/71/48/b6714847bbb3e8fecbea6fc7e4e2f085.jpg"
+              alt="Hi Nanna poster"
+            />
+          </a>
+
+          <div class="movie-content">
+            <h3>Hi Nanna</h3>
+
+            <span class="year">2023 • Telugu</span>
+
+            <p>
+              Hi Nanna is an emotional romantic drama starring Nani and Mrunal
+              Thakur. The story explores love, family, memories and
+              relationships.
+            </p>
+
+            <div class="movie-actions">
+              <a href="#hinanna" class="watch-btn">
+                <i class="fa-solid fa-play"></i>
+                Watch Trailer
+              </a>
+
+              <a
+                href="https://www.youtube.com/results?search_query=Hi+Nanna+Official+Trailer"
+                target="_blank"
+                class="icon-btn"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= MOVIE 2 ================= -->
+
+        <article class="movie-card">
+          <div class="movie-number">#02</div>
+
+          <a href="#irumudi">
+            <img src="./Young Yodha.jpg" alt="Irumudi poster" />
+          </a>
+
+          <div class="movie-content">
+            <h3>Irumudi</h3>
+
+            <span class="year">Telugu • Devotional</span>
+
+            <p>
+              A devotional story about Lord Ayyappa and the sacred journey of
+              his devotees to Sabarimala.
+            </p>
+
+            <div class="movie-actions">
+              <a href="#irumudi" class="watch-btn">
+                <i class="fa-solid fa-play"></i>
+                Watch Trailer
+              </a>
+
+              <a
+                href="https://www.youtube.com/results?search_query=Irumudi+Official+Telugu+Trailer"
+                target="_blank"
+                class="icon-btn"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= MOVIE 3 ================= -->
+
+        <article class="movie-card">
+          <div class="movie-number">#03</div>
+
+          <a href="#geetha">
+            <img
+              src="./Geetha Govindam (2018).jpg"
+              alt="Geetha Govindam poster"
+            />
+          </a>
+
+          <div class="movie-content">
+            <h3>Geetha Govindam</h3>
+
+            <span class="year">2018 • Telugu</span>
+
+            <p>
+              A romantic comedy about Govind and Geetha. Misunderstandings and
+              funny situations lead them toward a heartwarming love story.
+            </p>
+
+            <div class="movie-actions">
+              <a href="#geetha" class="watch-btn">
+                <i class="fa-solid fa-play"></i>
+                Watch Trailer
+              </a>
+
+              <a
+                href="https://www.youtube.com/results?search_query=Geetha+Govindam+Trailer"
+                target="_blank"
+                class="icon-btn"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= MOVIE 4 ================= -->
+
+        <article class="movie-card">
+          <div class="movie-number">#04</div>
+
+          <a href="#orange">
+            <img src="./Orange Poster 9.jpg" alt="Orange poster" />
+          </a>
+
+          <div class="movie-content">
+            <h3>Orange</h3>
+
+            <span class="year">2010 • Telugu</span>
+
+            <p>
+              A romantic drama about love, relationships and two people with
+              different views about love.
+            </p>
+
+            <div class="movie-actions">
+              <a href="#orange" class="watch-btn">
+                <i class="fa-solid fa-play"></i>
+                Watch Trailer
+              </a>
+
+              <a
+                href="https://www.youtube.com/results?search_query=Orange+Ram+Charan+Trailer"
+                target="_blank"
+                class="icon-btn"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= MOVIE 5 ================= -->
+
+        <article class="movie-card">
+          <div class="movie-number">#05</div>
+
+          <a href="#saaho">
+            <img
+              src="./Saaho (2019) - tt6836936 - Esp.jpg"
+              alt="Saaho poster"
+            />
+          </a>
+
+          <div class="movie-content">
+            <h3>Saaho</h3>
+
+            <span class="year">2019 • Telugu</span>
+
+            <p>
+              An action thriller involving crime, money, betrayal and a
+              dangerous high-stakes mission.
+            </p>
+
+            <div class="movie-actions">
+              <a href="#saaho" class="watch-btn">
+                <i class="fa-solid fa-play"></i>
+                Watch Trailer
+              </a>
+
+              <a
+                href="https://www.youtube.com/results?search_query=Saaho+Telugu+Trailer"
+                target="_blank"
+                class="icon-btn"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= TRAILER PLAYER SECTION ================= -->
+
+   
+          <h2>Irumudi Trailer</h2>
+
+          <video
+            poster="./download.jpg"
+            src="./Irumudi Official Telugu Trailer _ Ravi Teja _ Priya Bhavani Shankar _ Shiva Nirvana _ G V Prakash.mp4"
+            controls
+            preload="metadata"
+          ></video>
+        </div>
+
+        <div class="trailer-item" id="geetha">
+          <h2>Geetha Govindam Trailer</h2>
+
+          <video
+            poster="./Geetha Govindham Movie pics.jpg"
+            src="./GEETHA GOVINDAM TRAILER _ VIJAY DEVERAKONDA _ RASHMIKA MADANNA _ GA2 PICTURES.mp4"
+            controls
+            preload="metadata"
+          ></video>
+        </div>
+
+        <div class="trailer-item" id="orange">
+          <h2>Orange Trailer</h2>
+
+          <video
+            poster="./download (1).jpg"
+            src="./Orange Re - Release 2025 Trailer __ Ram Charan __ Harris Jayaraj __ NagaBabu __ Mega Power Star.mp4"
+            controls
+            preload="metadata"
+          ></video>
+        </div>
+
+        <div class="trailer-item" id="saaho">
+          <h2>Saaho Trailer</h2>
+
+          <video
+            poster="./download (2).jpg"
+            src="./Saaho Trailer _ Telugu _ Prabhas _ Shraddha Kapoor _ Sujeeth _ #SaahoTrailer _ UV Creations.mp4"
+            controls
+            preload="metadata"
+          ></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+      <div class="about-box">
+        <i class="fa-solid fa-clapperboard"></i>
+
+        <h2>About MovieHub</h2>
+
+        <p>
+          A personal movie and music showcase created using HTML and CSS. Browse
+          songs, movie posters and trailer videos in a responsive interface.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <div class="footer-logo">
+        <i class="fa-solid fa-film"></i>
+        Movie<span>Hub</span>
+      </div>
+
+      <p>© 2026 MovieHub • Music • Movies • Trailers</p>
+
+      <div class="social-icons">
+        <a href="https://www.youtube.com/" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://github.com/Siddam-Sandhya" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
+```
